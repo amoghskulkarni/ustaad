@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+
+  .tab {
+    width: 2rem;
+    border-left-width: 0.1rem;
+    border-left-style: solid;
+    border-left-color: white;
+  }
+
+  .file {
+    display: flex;
+    flex-direction: column;
+    cursor: auto;
+
+    /* border: 1px;
+    border-color: white;
+    border-style: solid; */
+
+    .file-name {
+      justify-self: center;
+      color: "$error";
+    }
+  }
+
+  .folder {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    /* border: 1px;
+    border-color: white;
+    border-style: solid; */
+
+    .folder-name {
+      color: greenyellow;
+    }
+  }
+}
